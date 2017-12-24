@@ -30,6 +30,10 @@ const config = {
     publicPath: '/'
   },
 
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+
   module: {
     rules: [
       {
@@ -39,7 +43,7 @@ const config = {
         loader: "eslint-loader"
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         loaders: [
           'babel-loader',
         ],

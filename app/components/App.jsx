@@ -1,11 +1,13 @@
 import React from 'react';
+import Grid from './Grid';
 
 const App = () => {
   return (
     <div>
-      <h1>Hello React!</h1>
+      <Grid />
     </div>
   );
 };
 
 export default App;
+ 

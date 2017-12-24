@@ -4,7 +4,6 @@
   "main": "index.js",
   "repository": "https://github.com/czling/mosaic.git",
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "clean": "rimraf dist",

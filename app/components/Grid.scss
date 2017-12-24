@@ -1,0 +1,18 @@
+$cell-size: 22px;
+
+.grid {
+	display: flex;
+	flex-direction: column;
+}
+
+.grid__row {
+	display: inline-flex;
+}
+
+.grid__cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: $cell-size;
+	height: $cell-size;
+}
